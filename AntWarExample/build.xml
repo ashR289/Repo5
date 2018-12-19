@@ -7,7 +7,7 @@
 		</fileset>
 	</path>
 	
-	<target name="init" depends="clean">
+	<target name="init">
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
 	</target>
